@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="ScoreKeeper.css">
+    <title>Score Keeper</title>
+</head>
+<body>
+    <h1>Score Keeper</h1>
+    <h2>Set your game</h2>
+    <div>
+        <label>Playing to: <input type="number" max="25" min="5" step="2" value="5" required id="setGame"></label>
+    </div>
+    <h2>Update your scores</h2>
+    <div id="scoreBoard"><span id="player1">0</span> to <span id="player2">0</span></div><br><br>
+    <button id="button1">+1 Player 1</button> <button id="button2">+1 Player 2</button><button id="reset">Reset Scores</button>
+    
+    <script src="ScoreKeeper.js"></script>
+</body>
+</html>
