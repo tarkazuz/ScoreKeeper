@@ -1,6 +1,18 @@
 body{
-    background-color: rgb(183, 152, 212);
+    background-color:rgb(31, 1, 58);
+}
+
+#board{
+    background-color: rgb(215, 197, 231);
     text-align: center;
+    border: dashed  rgb(156, 125, 180);
+    border-radius: 50px;
+    margin-top: 25vh; 
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(107, 77, 129);
 }
 #scoreBoard{
     display: inline-block;
@@ -17,15 +29,16 @@ button{
     color: rgb(223, 211, 211);
     border-radius: 5px;
     margin: 5px;
+    
 }
 #button1{
-    background-color: rgb(45, 75, 15);
+    background-color: rgb(167, 197, 137);
 }
 #button2{
-    background-color: rgb(31, 31, 117);
+    background-color: rgb(128, 128, 192);
 }
 #reset{
-    background-color: rgb(117, 18, 38);
+    background-color: rgb(182, 107, 122);
 }
 #setGame{
     background-color: rgb(223, 211, 211);;
